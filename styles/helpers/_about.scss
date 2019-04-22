@@ -1,0 +1,52 @@
+.about__personal {
+    margin-top: 15px;
+    background-color: #fff;
+
+    &-text {
+        display: flex;
+        height: 100px;
+        align-items: center;
+        justify-content: space-between;
+
+        &-border-left,
+        &-border-right {
+            border-top: 1px solid #737373;
+            width: 40%;
+        }
+    }
+
+    & p {
+        font-size: 16px;
+        color: #737373;
+        padding: 10px;
+    }
+    
+    &-cards {
+        display: flex;
+        margin-top: 15px;
+        width: 100%;
+        justify-content: space-between;
+        flex-wrap: wrap;
+
+        &-job {
+            width: 24%;
+
+            & img {
+                width: 100%;
+            }
+
+            &-name {
+                display: flex;
+                flex-wrap: wrap;
+                background-color: #fff;
+                padding: 5px;
+                margin-bottom: 15px;
+
+                & h3, h4 {
+                    width: 100%;
+                    text-align: center;
+                }
+            }
+        }
+    }
+}

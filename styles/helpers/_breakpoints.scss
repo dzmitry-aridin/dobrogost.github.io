@@ -1,0 +1,79 @@
+@media (max-width: 959px) {
+    .slade__box {
+        display: none;
+    }
+    .content__main-right {
+        display: none;
+    }
+    .content__main-left {
+        width: 30%;
+    }
+    .content__main-center {
+        width: 70%;
+    }
+
+    .about__personal-cards {
+        justify-content: flex-start;
+
+        &-job {
+        width: 32%;
+        &:nth-child(3n+2) {
+            margin-left: 2%;
+            margin-right: 2%;
+        }
+        }
+    }
+    .portfolio__job-text-top-border-left,
+    .portfolio__job-text-top-border-right {
+        width: 25%;
+    }
+    .portfolio__job-primero {
+        width: 100%;
+    }
+
+    .about__personal-text-border-left,
+    .about__personal-text-border-right {
+        width: 35%;
+    }
+
+    .contact-list {
+        flex-wrap: wrap;
+
+        &-form {
+            width: 100%;
+            margin-right: 0px;
+            margin-bottom: 15px;
+        }
+        &-map {
+            width: 100%;
+        }
+    }
+}
+
+@media (max-width: 480px) {
+    .slade__box {
+        display: none;
+    }
+
+    .content__main-left,
+    .content__main-right {
+        display: none;
+    }
+    .content__main-center {
+        width: 100%;
+    }
+
+    .about__personal-cards {
+        justify-content: space-between;
+
+        &-job {
+        width: 48%;
+
+            &:nth-child(3n+2) {
+            margin-left: 0;
+            margin-right: 0;
+            }
+        }
+    }
+
+}

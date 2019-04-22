@@ -1,0 +1,43 @@
+.portfolio__job {
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 15px;
+
+    &-text {
+            background-color: #fff;
+            margin-bottom: 15px;
+
+            & p {
+                font-size: 16px;
+                color: #737373;
+                padding: 30px;
+            }
+
+            &-top {
+                display: flex;
+                width: 100%;
+                height: 100px;
+                align-items: center;
+                justify-content: space-between;
+
+            &-border-left,
+            &-border-right {
+                border-top: 1px solid #737373;
+                width: 35%;
+            }
+        }
+    }
+
+    &-primero {
+        background-color: #fff;
+        padding: 5px;
+        width: 49%;
+        margin-bottom: 15px;
+
+        & img {
+            width: 100%;
+        }
+    }
+}
